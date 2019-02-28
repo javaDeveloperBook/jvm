@@ -12,7 +12,7 @@ public class StackOverFlow {
         StackOverFlow stack = new StackOverFlow();
         stack.count();
     }
-    public void count(){
+    private void count(){
         System.out.println("counter : " + (++count));
         count();
     }
